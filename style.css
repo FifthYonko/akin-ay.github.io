@@ -27,7 +27,6 @@ div{
     column-count: 2;
   }
   body main{
-    background: url('/img/background.jpg') center/cover no-repeat;
     margin: auto;
     max-width: 500px;
     min-width: 500px;
