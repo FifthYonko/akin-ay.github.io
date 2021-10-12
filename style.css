@@ -1,6 +1,6 @@
 
 header{
-    background-color: aqua;
+    background-color: burlywood;
     text-align: center;
 }
 
@@ -30,4 +30,8 @@ div{
     margin: auto;
     max-width: 500px;
     min-width: 500px;
+  }
+
+  body{
+      background-color: wheat;
   }
