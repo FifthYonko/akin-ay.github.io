@@ -25,18 +25,13 @@
 
       <main>
         <form action="send.php" method="GET"></form>
-            <div>
-                <label for="genre"></label><i class="far fa-user"></i></label>
-                <select name="genre" id="genre">
-                <option value="homme">Mr</option>
-                <option value="femme">Mrs</option>
-                </select>
-
+            <div class="col">
                 <label for="filedName">Nom</label>
+                <br>
                 <input type="text" id="filedName" name="filedName" placeholder="Votre nom">
                 <br>
-                <br>
                 <label for="filedsurName">Prénom</label>
+                <br>
                 <input type="text" id="filedsurName" name="filedsurName" placeholder="Votre Prénom">
 
             </div>
@@ -46,27 +41,27 @@
                 <br>
                 <input type="number" id="telephone" name="telephone" placeholder="Votre numéro">
                 <br>
-                <label for="email">@ email</label>
+                <label for="email">Email</label>
                 <br>
-                <input type="email" id="email" name="email" placeholder="votre@email">
+                <input type="email" id="email" name="email" placeholder="exemple@email.com">
             </div>
 
             <div>
-                <label for="contact">A quel moment peut on vous contacter</label>
+                <label for="contact">Votre disponibilité</label>
                 <br>
                 <input type="radio" id="matin" name="contact" value="matin">
-                <label for="matin">Le matin</label>
+                <label for="matin">Matin</label>
 
                 <input type="radio" id="midi" name="contact" value="midi">
-                <label for="midi">L'après midi</label>
+                <label for="midi">Midi</label>
 
                 <input type="radio" id="soir" name="contact" value="soir">
-                <label for="soir">Le soir</label>
+                <label for="soir">Soir</label>
 
             </div>
 
             <div> 
-                <label for="message">Merci de nous laisser un message</label>
+                <label for="message">Votre message</label>
                 <br>
                 <textarea id="message" name="message" rows="5" cols="33"></textarea>
 
